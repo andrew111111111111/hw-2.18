@@ -1,0 +1,16 @@
+{{#each this}}
+  <tr data-id="{{id}}">
+    <td class="id">{{id}}</td>
+    <td>{{name}}</td>
+    <td>{{age}}</td>
+    <td>{{course}}</td>
+    <td>{{skills}}</td>
+    <td>{{email}}</td>
+    <td>{{isEnrolled}}</td>
+    <td>
+      <button data-action="del">del</button>
+      <button data-action="edit" class="edit">edit</button>
+    </td>
+  </tr>
+
+{{/each}}

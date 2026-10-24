@@ -1,0 +1,31 @@
+{
+  "name": "hw-2.18",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "server": "json-server --watch ./src/data/students.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew111111111111/hw-2.18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/andrew111111111111/hw-2.18/issues"
+  },
+  "homepage": "https://github.com/andrew111111111111/hw-2.18#readme",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.16.4",
+    "gh-pages": "^6.3.0",
+    "json-server": "^1.0.0-beta.15",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.10",
+    "lodash": "^4.18.1"
+  }
+}
