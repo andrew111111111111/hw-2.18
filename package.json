@@ -4,6 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
     "server": "json-server --watch ./src/data/students.json"
   },
   "repository": {
